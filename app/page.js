@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState, useEffect } from "react";
-import { BRAND, T } from "@/components/brand";
+import { BRAND, T } from "../components/brand";
 
 export default function Home(){
   const [lang,setLang]=useState("en"); // default English
